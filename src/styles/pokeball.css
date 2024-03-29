@@ -1,0 +1,16 @@
+.pokeball {
+  width: 50px;
+  height: 50px;
+  animation: frames 1.5s linear 0s infinite;
+}
+
+/* AnimationFrames */
+@keyframes frames {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
